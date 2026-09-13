@@ -1,0 +1,212 @@
+{
+  "mind_tricks": [
+    {
+      "id": "trick-01",
+      "title": "Don't Solve Every Puzzle: The 60-Second Scan",
+      "title_hi": "हर पहेली को तुरंत मत छेड़ें: 60-सेकंड स्कैन नियम",
+      "category": "Strategy & Mindset",
+      "when_to_use": "First 60 seconds of any Prelims Reasoning section",
+      "why_it_works": "Exam setters intentionally place 1 difficult or uncertain puzzle early in the section to trap candidates in a 5-minute time sink. By quickly scanning and identifying the 3 easiest sets first, you secure 15 marks with maximum confidence.",
+      "method": "Spend the first 45-60 seconds browsing all 35 questions. Attempt all standalone speed questions first (Syllogism, Inequality, Alphanumeric, Coding) in 6-7 minutes (securing ~15 marks). Then attempt the 2 most straightforward puzzles (Floor/Flat or Month/Date with fixed base) before touching uncertain seating.",
+      "time_saved": "Saves 4-6 minutes and eliminates exam panic",
+      "common_mistake": "Blindly beginning with Question 1 even if it's a 3-variable uncertain linear puzzle."
+    },
+    {
+      "id": "trick-02",
+      "title": "Start Puzzles with Fixed Anchor Clues Only",
+      "title_hi": "पहेलियाँ केवल निश्चित आधार (Anchor Clues) से शुरू करें",
+      "category": "Puzzles",
+      "when_to_use": "Any Floor, Flat, Month, or Box puzzle",
+      "why_it_works": "Weak relative clues like 'A sits near B' create 4+ branching permutations. An anchor clue fixes an absolute coordinate (e.g. 'P sits on the lowermost floor' or 'Q attends seminar on 14th April') and immediately reduces branches to 1 or 2.",
+      "method": "Scan the text for keywords: 'extreme end', 'bottom-most / top floor', 'corner', 'adjacent to vacant', 'date with 31 days'. Plot this anchor first.",
+      "time_saved": "Reduces solving time from 4.5 minutes to 2 minutes",
+      "common_mistake": "Reading linearly sentence by sentence and trying to place relative conditions prematurely."
+    },
+    {
+      "id": "trick-03",
+      "title": "Syllogism: 'Only a few' Instant Dual-Truth",
+      "title_hi": "न्याय निगमन: 'Only a few' का अचूक दोहरा नियम",
+      "category": "Syllogism",
+      "when_to_use": "Whenever statement contains 'Only a few A are B'",
+      "why_it_works": "'Only a few' is mathematically equivalent to TWO simultaneous conditions: (1) Some A are B [Positive], and (2) Some A are NOT B [Negative].",
+      "method": "Rule 1: All A can NEVER be B. Any conclusion stating 'All A being B is a possibility' is AUTOMATICALLY FALSE.\nRule 2: But All B can be A! Unless restricted by another statement, 'All B being A is a possibility' is ALWAYS TRUE.",
+      "time_saved": "Answers conclusions in 5 seconds without drawing complex Venn diagrams",
+      "common_mistake": "Treating 'Only a few' as simple 'Some' and marking 'All A are B is a possibility' as true."
+    },
+    {
+      "id": "trick-04",
+      "title": "Inequality: The Open Door / Gatekeeper Method",
+      "title_hi": "असमानता: खुला दरवाजा (Open Gate) तकनीक",
+      "category": "Inequality",
+      "when_to_use": "All linear and semi-colon inequality questions",
+      "why_it_works": "Visualizes relational flow as traveling through doors. You can travel from the open wide mouth to the pointed vertex: A > B means door is open from A to B, closed from B to A.",
+      "method": "To verify 'P > Q':\n1. Check if path starts at P and moves towards Q with doors open.\n2. Ensure at least one strict '>' door exists on the trail.\n3. If at any point you meet opposite signs (e.g. > and <), path is blocked and relation is impossible.",
+      "time_saved": "Allows solving 5 inequality questions in under 45 seconds directly on screen",
+      "common_mistake": "Rewriting the statements on rough paper instead of tracing directly on screen."
+    },
+    {
+      "id": "trick-05",
+      "title": "Blood Relations: Generation Integer Method",
+      "title_hi": "रक्त संबंध: पीढ़ी संख्या विधि (+2, +1, 0, -1, -2)",
+      "category": "Blood Relations",
+      "when_to_use": "Evaluating coded relations or determining relationship between two distant individuals",
+      "why_it_works": "Replaces confusing genealogical strings with simple arithmetic addition.",
+      "method": "Grandparents = +2 | Parents/Uncle/Aunt = +1 | Siblings/Spouse = 0 | Children/Niece/Nephew = -1 | Grandchildren = -2.\nIf question asks 'How is A related to D', add the generational step integers between them. If the sum is +1, A MUST be from parent generation (father/mother/uncle/aunt). Immediately eliminate brother, son, grandfather options!",
+      "time_saved": "Instantly eliminates 3 out of 5 options without drawing tree",
+      "common_mistake": "Drawing large family trees for simple coded expressions."
+    },
+    {
+      "id": "trick-06",
+      "title": "Direction: Cartesian Coordinate Shortcut (X, Y)",
+      "title_hi": "दिशा एवं दूरी: कार्तीय निर्देशांक विधि (East = +X, North = +Y)",
+      "category": "Direction & Distance",
+      "when_to_use": "Person takes multiple turns and question asks final distance/direction from start",
+      "why_it_works": "Translates turning movements into independent orthogonal components on an (X, Y) plane.",
+      "method": "East = +X, West = -X, North = +Y, South = -Y.\nSum all X coordinates: ΔX.\nSum all Y coordinates: ΔY.\nShortest distance = √(ΔX² + ΔY²).\nDirection is derived directly from signs of (ΔX, ΔY). E.g. (+5, -3) = East-South = South-East!",
+      "time_saved": "Cuts drawing and measurement errors by 80%",
+      "common_mistake": "Drawing turns with wrong scale, making 10m look shorter than 5m and misjudging alignment."
+    },
+    {
+      "id": "trick-07",
+      "title": "Coding: Opposites Sum to 27 & EJOTY Grid",
+      "title_hi": "कोडिंग: विपरीत अक्षरों का योग 27 एवं EJOTY सूत्र",
+      "category": "Coding-Decoding",
+      "when_to_use": "Letter manipulation, opposite letter pairs, new pattern coding",
+      "why_it_works": "The position of any letter from the front (1 to 26) and from the back (26 to 1) always sums to 27.",
+      "method": "Remember anchors: E=5, J=10, O=15, T=20, Y=25.\nOpposite of any letter = 27 - position. E.g., Letter 'H' is 8th. Opposite = 27 - 8 = 19 (S). High-School (HS).\nMemorable mnemonic pairs: AZ (Azad), BY (Boy), CX (Crux), DW (Dew), EV (Even), FU (Full), GT (GT Road), HS (High School), IR (Indian Railway), JQ (Jungle Queen), KP (Kurta Pyjama), LO (Love), MN (Man).",
+      "time_saved": "Recalls letter codes in under 1 second",
+      "common_mistake": "Writing the entire A-Z alphabet on rough sheet during precious exam minutes."
+    },
+    {
+      "id": "trick-08",
+      "title": "Alphanumeric Series: Direction Addition & Subtraction",
+      "title_hi": "वर्ण-संख्या श्रृंखला: समान दिशा घटाएँ, विपरीत दिशा जोड़ें",
+      "category": "Alphanumeric",
+      "when_to_use": "Questions like 'Which element is 6th to the left of 17th from left end?'",
+      "why_it_works": "Moving left from a left-referenced position moves you back towards the start; moving right from a left-referenced position moves you forward.",
+      "method": "Same directions -> SUBTRACT (Left - Left or Right - Right)\nOpposite directions -> ADD (Left + Right or Right + Left)\nExample: '7th to the right of 19th from left end' = Opposite directions -> (19 + 7) = 26th from left end!\n'5th to the right of 18th from right end' = Same directions -> (18 - 5) = 13th from right end!",
+      "time_saved": "Answers in 4 seconds with zero manual hopping on screen",
+      "common_mistake": "Counting 18 from right, and then physically counting 5 to the right one by one."
+    },
+    {
+      "id": "trick-09",
+      "title": "Input-Output: The Step-Indexing Shortcut",
+      "title_hi": "इनपुट-आउटपुट: स्टेप-इंडेक्सिंग एवं ऑटो-अरेंज नियम",
+      "category": "Input-Output",
+      "when_to_use": "Arranging words and numbers without writing every intermediate step",
+      "why_it_works": "Elements shift according to predetermined sorting rank (e.g. smallest number left, alphabetical word right). If an element naturally sits in its final slot when prior elements move, it gets 'auto-arranged' without a new step.",
+      "method": "Identify the target sequence. Label each element with its required order (L1, L2, L3 on left; R1, R2, R3 on right). Track which elements get auto-placed. Total steps required = Total elements - Auto-arranged elements.",
+      "time_saved": "Solves a 5-mark Mains set in 2 minutes instead of 5 minutes",
+      "common_mistake": "Writing out all 6 steps line by line on paper."
+    },
+    {
+      "id": "trick-10",
+      "title": "Critical Reasoning: The Negation Test for Assumptions",
+      "title_hi": "कथन एवं पूर्वधारणा: नकारात्मक परीक्षण (Negation Test)",
+      "category": "Logical Reasoning",
+      "when_to_use": "Confused between two plausible assumptions in Mains",
+      "why_it_works": "An assumption is the unstated foundation of the argument. If the foundation is destroyed (negated), the entire statement becomes pointless or absurd.",
+      "method": "Take the assumption option and temporarily add 'NOT' to it. Read the statement again. If the statement completely falls apart, then that assumption is 100% VALID. If the statement can still stand even if the assumption is false, the assumption is INVALID.",
+      "time_saved": "Guarantees 100% accuracy in high-stake Mains verbal reasoning",
+      "common_mistake": "Choosing options based on personal real-life opinion rather than logical necessity."
+    }
+  ],
+  "topper_vs_normal": [
+    {
+      "id": "comp-01",
+      "topic": "Inequality",
+      "problem": "Statements: A > B ≥ C; C = D < E. Conclusion: A > D",
+      "normal_method": {
+        "description": "Writes down statement on rough paper: A > B ≥ C = D < E. Slowly checks if A is greater than B, B is greater than or equal to C, C equals D, and verifies each sign step-by-step.",
+        "time_taken_seconds": 35
+      },
+      "topper_method": {
+        "description": "Scans directly on computer screen. Locates A and D. Notes path: A > B ≥ C = D. Gate is open throughout from A to D, and contains a strict '>' symbol. Immediately clicks 'True'.",
+        "time_taken_seconds": 8
+      },
+      "time_saved_percent": "77%"
+    },
+    {
+      "id": "comp-02",
+      "topic": "Syllogism",
+      "problem": "Statements: Only a few Phones are Laptops. All Laptops are Tablets. Conclusion: All Phones being Laptops is a possibility.",
+      "normal_method": {
+        "description": "Draws 3 overlapping circles on rough paper. Tries to imagine whether the phone circle can expand into the laptop circle, checks if there is any violation, ponders for 45 seconds.",
+        "time_taken_seconds": 55
+      },
+      "topper_method": {
+        "description": "Recalls rule: 'Only a few Phones are Laptops' means Some Phones are definitely NOT Laptops. Hence All Phones can never be Laptops. Possibility is instantly False without lifting pen.",
+        "time_taken_seconds": 10
+      },
+      "time_saved_percent": "82%"
+    },
+    {
+      "id": "comp-03",
+      "topic": "Ranking",
+      "problem": "In a row of 45 students, A is 16th from the left. What is A's rank from the right end?",
+      "normal_method": {
+        "description": "Draws a line with 45 tally marks or counts on fingers. Thinks 45 - 16 = 29, and marks 29.",
+        "time_taken_seconds": 30,
+        "is_wrong": true,
+        "trap_note": "Fails to add 1 and marks 29, getting negative marks!"
+      },
+      "topper_method": {
+        "description": "Applies mental formula: Rank from Right = Total - Rank from Left + 1 = 45 - 16 + 1 = 30. Solved in 5 seconds mentally.",
+        "time_taken_seconds": 5
+      },
+      "time_saved_percent": "83%"
+    },
+    {
+      "id": "comp-04",
+      "topic": "Alphanumeric Series",
+      "problem": "Which element is 5th to the left of 18th from the left end in a 30-element sequence?",
+      "normal_method": {
+        "description": "Counts 18 elements from the left end on the monitor. Stops finger at 18th. Then counts 5 elements backwards to the left.",
+        "time_taken_seconds": 25
+      },
+      "topper_method": {
+        "description": "Identifies same direction: Left and Left -> Subtract: 18 - 5 = 13th from left end. Directly counts to 13th element in one single pass.",
+        "time_taken_seconds": 8
+      },
+      "time_saved_percent": "68%"
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "fc-01",
+      "topic": "Syllogism",
+      "front": "What does 'Only A are B' mean in standard logical terms?",
+      "back": "It means 'All B are A' AND 'B can have NO relationship with any other circle'. B is strictly exclusive to A."
+    },
+    {
+      "id": "fc-02",
+      "topic": "Syllogism",
+      "front": "What are the valid Complementary Pairs for 'Either-Or'?",
+      "back": "1. Some + No\n2. Some + Some Not\n(Note: 'All + No' is NOT an Either-Or pair; 'All + Some Not' only if subjects and predicates match order)."
+    },
+    {
+      "id": "fc-03",
+      "topic": "Ranking",
+      "front": "What is the formula for Total persons in a row?",
+      "back": "Total = (Rank from Left / Top + Rank from Right / Bottom) - 1"
+    },
+    {
+      "id": "fc-04",
+      "topic": "Coding",
+      "front": "What is the sum of positions of any letter and its opposite letter?",
+      "back": "27 (e.g. A=1, Z=26 -> 1+26=27; M=13, N=14 -> 13+14=27)."
+    },
+    {
+      "id": "fc-05",
+      "topic": "Inequality",
+      "front": "What happens if opposite signs (e.g. > and <) appear between two elements in an inequality chain?",
+      "back": "No definite relationship can be determined. Any definite conclusion between them is FALSE. Only an Either-Or (with all 3 possibilities >, <, =) can hold."
+    },
+    {
+      "id": "fc-06",
+      "topic": "Direction",
+      "front": "Where does the shadow of an object fall at Sunrise?",
+      "back": "At Sunrise (Sun in East), all shadows fall towards the WEST. At Sunset (Sun in West), shadows fall towards the EAST."
+    }
+  ]
+}

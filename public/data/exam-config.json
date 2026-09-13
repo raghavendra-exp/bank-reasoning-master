@@ -1,0 +1,165 @@
+{
+  "last_updated": "September 2026",
+  "policy": {
+    "source_verification": "Strict official notification citations only",
+    "negative_marking_rule": "1/4th (0.25) of the marks assigned to that question deducted for wrong answer",
+    "unattempted_rule": "No penalty for unattempted questions"
+  },
+  "exams": [
+    {
+      "id": "SBI_CLERK",
+      "name": "SBI Clerk (Junior Associate)",
+      "conducting_body": "State Bank of India (Central Recruitment & Promotion Department)",
+      "latest_cycle": "2025-2026",
+      "last_verified": "2026-08-15",
+      "official_source": "SBI Official Notification CRPD/CR/2024-25/XX & CRPD/CR/2023-24/27",
+      "official_url": "https://sbi.co.in/web/careers",
+      "prelims": {
+        "section_name": "Reasoning Ability",
+        "questions": 35,
+        "marks": 35,
+        "duration_minutes": 20,
+        "separately_timed": true,
+        "negative_marking": 0.25,
+        "computer_aptitude_included": false,
+        "total_exam_questions": 100,
+        "total_exam_marks": 100,
+        "total_exam_duration": 60,
+        "other_sections": [
+          { "name": "English Language", "questions": 30, "marks": 30, "duration": 20 },
+          { "name": "Numerical Ability", "questions": 35, "marks": 35, "duration": 20 }
+        ]
+      },
+      "mains": {
+        "section_name": "Reasoning Ability & Computer Aptitude",
+        "questions": 50,
+        "marks": 50,
+        "duration_minutes": 45,
+        "separately_timed": true,
+        "negative_marking": 0.25,
+        "computer_aptitude_included": true,
+        "total_exam_questions": 190,
+        "total_exam_marks": 200,
+        "total_exam_duration": 160,
+        "other_sections": [
+          { "name": "General/Financial Awareness", "questions": 50, "marks": 50, "duration": 35 },
+          { "name": "General English", "questions": 40, "marks": 40, "duration": 35 },
+          { "name": "Quantitative Aptitude", "questions": 50, "marks": 50, "duration": 45 }
+        ]
+      },
+      "strategy_note": "SBI Clerk Prelims Reasoning is high-scoring. Target 32-35 attempts in 20 minutes. Mains features multi-condition puzzles, input-output, and high-level logical reasoning.",
+      "archive_history": [
+        {
+          "cycle": "2023-2024",
+          "prelims_reasoning": { "questions": 35, "marks": 35, "time": 20 },
+          "mains_reasoning": { "questions": 50, "marks": 50, "time": 45 },
+          "status": "Identical structure verified"
+        }
+      ]
+    },
+    {
+      "id": "IBPS_CLERK",
+      "name": "IBPS Clerk / Customer Service Associate (CSA)",
+      "conducting_body": "Institute of Banking Personnel Selection (CRP Clerks)",
+      "latest_cycle": "CRP CLERKS-XIV / XV (2025-2026)",
+      "last_verified": "2026-08-20",
+      "official_source": "IBPS Official Notification CRP Clerks-XIV / XV",
+      "official_url": "https://www.ibps.in",
+      "prelims": {
+        "section_name": "Reasoning Ability",
+        "questions": 35,
+        "marks": 35,
+        "duration_minutes": 20,
+        "separately_timed": true,
+        "negative_marking": 0.25,
+        "computer_aptitude_included": false,
+        "total_exam_questions": 100,
+        "total_exam_marks": 100,
+        "total_exam_duration": 60,
+        "other_sections": [
+          { "name": "English Language", "questions": 30, "marks": 30, "duration": 20 },
+          { "name": "Numerical Ability", "questions": 35, "marks": 35, "duration": 20 }
+        ]
+      },
+      "mains": {
+        "section_name": "Reasoning Ability & Computer Aptitude",
+        "questions": 50,
+        "marks": 60,
+        "duration_minutes": 45,
+        "separately_timed": true,
+        "negative_marking": 0.25,
+        "computer_aptitude_included": true,
+        "total_exam_questions": 190,
+        "total_exam_marks": 200,
+        "total_exam_duration": 160,
+        "other_sections": [
+          { "name": "General/Financial Awareness", "questions": 50, "marks": 50, "duration": 35 },
+          { "name": "General English", "questions": 40, "marks": 40, "duration": 35 },
+          { "name": "Quantitative Aptitude", "questions": 50, "marks": 50, "duration": 45 }
+        ]
+      },
+      "strategy_note": "Note crucial distinction: In IBPS Clerk Mains, Reasoning has 50 questions for 60 MARKS (some questions carry 1.5 or 2 marks). Separately timed at 45 minutes.",
+      "archive_history": [
+        {
+          "cycle": "CRP CLERKS-XIII (2023)",
+          "prelims_reasoning": { "questions": 35, "marks": 35, "time": 20 },
+          "mains_reasoning": { "questions": 50, "marks": 60, "time": 45 },
+          "status": "Identical structure verified"
+        }
+      ]
+    },
+    {
+      "id": "IBPS_RRB_OA",
+      "name": "IBPS RRB Office Assistant (Multipurpose)",
+      "conducting_body": "Institute of Banking Personnel Selection (CRP RRBs)",
+      "latest_cycle": "CRP RRBs-XIII / XIV (2025-2026)",
+      "last_verified": "2026-08-25",
+      "official_source": "IBPS Official Notification CRP RRBs-XIII / XIV",
+      "official_url": "https://www.ibps.in",
+      "prelims": {
+        "section_name": "Reasoning",
+        "questions": 40,
+        "marks": 40,
+        "duration_minutes": 45,
+        "separately_timed": false,
+        "composite_time_note": "Composite time of 45 minutes for both Reasoning (40 Q) and Numerical Ability (40 Q). Recommended allocation: 22-23 minutes for Reasoning.",
+        "negative_marking": 0.25,
+        "computer_aptitude_included": false,
+        "total_exam_questions": 80,
+        "total_exam_marks": 80,
+        "total_exam_duration": 45,
+        "other_sections": [
+          { "name": "Numerical Ability", "questions": 40, "marks": 40, "duration": 0 }
+        ]
+      },
+      "mains": {
+        "section_name": "Reasoning",
+        "questions": 40,
+        "marks": 50,
+        "duration_minutes": 120,
+        "separately_timed": false,
+        "composite_time_note": "Composite time of 2 hours (120 minutes) for all 5 sections. Recommended allocation: 30-35 minutes for Reasoning. Note: Computer Knowledge is a SEPARATE section (40 Q, 20 Marks).",
+        "negative_marking": 0.25,
+        "computer_aptitude_included": false,
+        "total_exam_questions": 200,
+        "total_exam_marks": 200,
+        "total_exam_duration": 120,
+        "other_sections": [
+          { "name": "Computer Knowledge", "questions": 40, "marks": 20, "duration": 0 },
+          { "name": "General Awareness", "questions": 40, "marks": 40, "duration": 0 },
+          { "name": "English / Hindi Language", "questions": 40, "marks": 40, "duration": 0 },
+          { "name": "Numerical Ability", "questions": 40, "marks": 50, "duration": 0 }
+        ]
+      },
+      "strategy_note": "CRITICAL DIFFERENCE: In RRB Office Assistant, there is NO sectional timer! You have composite time (45 mins in Prelims, 120 mins in Mains). Strict personal time discipline is paramount.",
+      "archive_history": [
+        {
+          "cycle": "CRP RRBs-XII (2023)",
+          "prelims_reasoning": { "questions": 40, "marks": 40, "time": "Composite 45 min" },
+          "mains_reasoning": { "questions": 40, "marks": 50, "time": "Composite 120 min" },
+          "status": "Identical structure verified"
+        }
+      ]
+    }
+  ]
+}

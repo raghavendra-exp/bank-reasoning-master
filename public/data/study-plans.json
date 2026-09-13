@@ -1,0 +1,68 @@
+{
+  "plans": [
+    {
+      "id": "plan-30",
+      "name": "30-Day Sprint Plan: Prelims Rapid Clearance",
+      "target": "Students with basic concepts aiming to crack SBI/IBPS/RRB Clerk Prelims",
+      "duration_days": 30,
+      "daily_breakdown": [
+        { "day": 1, "topic": "Inequality", "task": "Direct Chains & Either-Or Rules", "questions": 30, "speed_drill": "15 min" },
+        { "day": 2, "topic": "Syllogism", "task": "'Only a few' & Possibility cases", "questions": 30, "speed_drill": "15 min" },
+        { "day": 3, "topic": "Alphanumeric Series", "task": "Left/Right counts & Mixed sequence", "questions": 35, "speed_drill": "15 min" },
+        { "day": 4, "topic": "Coding-Decoding", "task": "Chinese / Substitutional elimination", "questions": 25, "speed_drill": "15 min" },
+        { "day": 5, "topic": "Blood Relations", "task": "Generational trees & gender tests", "questions": 20, "speed_drill": "15 min" },
+        { "day": 6, "topic": "Direction & Distance", "task": "Cartesian coordinates & Pythagoras", "questions": 20, "speed_drill": "15 min" },
+        { "day": 7, "topic": "Ranking & Order", "task": "Total persons & interchange formulas", "questions": 20, "speed_drill": "15 min" },
+        { "day": 8, "topic": "Floor Puzzles", "task": "Single variable 6-8 floors (Case elimination)", "questions": 4, "speed_drill": "20 min" },
+        { "day": 9, "topic": "Flat & Floor Puzzles", "task": "2 flats x 4 floors combinations", "questions": 4, "speed_drill": "20 min" },
+        { "day": 10, "topic": "Box Puzzles", "task": "Stacking order and uncertain gaps", "questions": 4, "speed_drill": "20 min" },
+        { "day": 11, "topic": "Month & Date Puzzles", "task": "2 dates x 4 months scheduling", "questions": 4, "speed_drill": "20 min" },
+        { "day": 12, "topic": "Linear Seating", "task": "Single row facing North (7-8 persons)", "questions": 4, "speed_drill": "20 min" },
+        { "day": 13, "topic": "Parallel Row Seating", "task": "10-12 persons facing North and South", "questions": 4, "speed_drill": "20 min" },
+        { "day": 14, "topic": "Circular Seating", "task": "8 persons all facing centre", "questions": 4, "speed_drill": "20 min" },
+        { "day": 15, "topic": "Circular Seating", "task": "8 persons facing inside & outside", "questions": 4, "speed_drill": "20 min" },
+        { "day": 16, "topic": "Square / Rectangular Seating", "task": "Corners facing outside, sides facing inside", "questions": 4, "speed_drill": "20 min" },
+        { "day": 17, "topic": "Speed Drill Day", "task": "Speed Lab: 50 standalone questions (Syllogism + Inequality + Alphanumeric)", "questions": 50, "speed_drill": "30 min" },
+        { "day": 18, "topic": "PYQ Marathon", "task": "SBI Clerk Prelims 2024 & 2023 full papers", "questions": 70, "speed_drill": "20 min" },
+        { "day": 19, "topic": "PYQ Marathon", "task": "IBPS Clerk Prelims 2024 & 2023 full papers", "questions": 70, "speed_drill": "20 min" },
+        { "day": 20, "topic": "PYQ Marathon", "task": "RRB Office Assistant 2024 & 2023 papers", "questions": 80, "speed_drill": "20 min" },
+        { "day": 21, "topic": "Mock Test 1", "task": "Full Sectional Mock + Detailed Mistake Analysis", "questions": 35, "speed_drill": "20 min" },
+        { "day": 22, "topic": "Revision & Weak Area", "task": "Practice questions from 'Revise My Mistakes'", "questions": 30, "speed_drill": "15 min" },
+        { "day": 23, "topic": "Mock Test 2", "task": "Full Sectional Mock + Strategy fine-tuning", "questions": 35, "speed_drill": "20 min" },
+        { "day": 24, "topic": "Uncertain Persons Puzzle", "task": "Linear row with unknown number of persons", "questions": 5, "speed_drill": "20 min" },
+        { "day": 25, "topic": "Mock Test 3", "task": "Full Sectional Mock under exam timer", "questions": 35, "speed_drill": "20 min" },
+        { "day": 26, "topic": "Question Selection Training", "task": "Train on 10 puzzle sets: Which to attempt first", "questions": 10, "speed_drill": "15 min" },
+        { "day": 27, "topic": "Mock Test 4", "task": "Target 32+ marks in 20 minutes", "questions": 35, "speed_drill": "20 min" },
+        { "day": 28, "topic": "Mock Test 5", "task": "Target 35/35 in Clerk Prelims Mock", "questions": 35, "speed_drill": "20 min" },
+        { "day": 29, "topic": "Formula & Shortcut Review", "task": "Flashcards, Mind Tricks, Trap avoidance", "questions": 0, "speed_drill": "30 min" },
+        { "day": 30, "topic": "Final Exam Readiness Drill", "task": "1 Light Mock + Mind relaxation & strategy review", "questions": 35, "speed_drill": "20 min" }
+      ]
+    },
+    {
+      "id": "plan-60",
+      "name": "60-Day Comprehensive: Prelims + Mains Foundation",
+      "target": "Holistic preparation covering speed for Prelims and depth for Mains",
+      "duration_days": 60,
+      "phases": [
+        { "phase": 1, "days": "Day 1 - 15", "focus": "Concept Mastery & Speed Fundamentals (Inequality, Syllogism, Series, Coding, Family Tree)" },
+        { "phase": 2, "days": "Day 16 - 30", "focus": "Prelims Level Puzzles & Seating (Floor, Flat, Box, Circle, Line)" },
+        { "phase": 3, "days": "Day 31 - 42", "focus": "Mains Special (Input-Output, Critical Reasoning, Coded Inequality, Coded Blood Relations)" },
+        { "phase": 4, "days": "Day 43 - 52", "focus": "PYQ Deep-Dive (2020-2026 Shift-wise Analysis & Re-solving)" },
+        { "phase": 5, "days": "Day 53 - 60", "focus": "Full Mocks, Weakness Elimination & Speed Fine-Tuning" }
+      ]
+    },
+    {
+      "id": "plan-90",
+      "name": "90-Day Master Program: Zero to Bank Topper",
+      "target": "Complete beginner starting from scratch to selection in SBI/IBPS/RRB",
+      "duration_days": 90,
+      "phases": [
+        { "phase": 1, "days": "Day 1 - 25", "focus": "Zero to Concept Clear: Theoretical foundation of all 22 reasoning topics" },
+        { "phase": 2, "days": "Day 26 - 50", "focus": "Basic & Medium Practice: 500+ questions across all categories" },
+        { "phase": 3, "days": "Day 51 - 70", "focus": "Speed Building & Shortcut Mastery: Sub-20 second targets" },
+        { "phase": 4, "days": "Day 71 - 85", "focus": "PYQ Mastery & Mains Level Complex Multi-variable Puzzles" },
+        { "phase": 5, "days": "Day 86 - 90", "focus": "Mock Test Simulation, Error Log Liquidation & Exam Readiness 95+" }
+      ]
+    }
+  ]
+}
